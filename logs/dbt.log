@@ -1,0 +1,211 @@
+[0m00:05:37.949206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203154D73B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000203159C93A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020315F16270>]}
+
+
+============================== 00:05:37.957247 | fa300c55-c743-41ff-af94-f90ff128f20b ==============================
+[0m00:05:37.957247 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:05:37.957247 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\oswin\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init dbt_weather', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m00:05:38.167030 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\oswin\.dbt
+[0m00:05:38.169014 [info ] [MainThread]: A project called dbt_weather already exists here.
+[0m00:05:38.170526 [debug] [MainThread]: Command `dbt init` succeeded at 00:05:38.169014 after 0.32 seconds
+[0m00:05:38.170526 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020318063710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020318E5AC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020318639D00>]}
+[0m00:05:38.170526 [debug] [MainThread]: Flushing usage events
+[0m00:05:39.154572 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:08:20.530685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F258563920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2587DED80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F255FA6300>]}
+
+
+============================== 00:08:20.534210 | 509f4554-6df0-4242-b5a4-4fcdc3423dfc ==============================
+[0m00:08:20.534210 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:08:20.534210 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\oswin\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init dbt_weather', 'log_path': 'logs'}
+[0m00:08:20.547252 [info ] [MainThread]: A project called dbt_weather already exists here.
+[0m00:08:20.548235 [debug] [MainThread]: Command `dbt init` succeeded at 00:08:20.548235 after 0.11 seconds
+[0m00:08:20.548235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F254675580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F2552953A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F25A0BAFF0>]}
+[0m00:08:20.549233 [debug] [MainThread]: Flushing usage events
+[0m00:08:21.553503 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:09:39.255160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223F1C6E330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223F1C9D0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223F1C9D130>]}
+
+
+============================== 00:09:39.259190 | c1e8d51d-fb67-4d00-a239-eb25fef940ed ==============================
+[0m00:09:39.259190 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:09:39.259190 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\oswin\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init dbt_weather', 'log_path': 'logs'}
+[0m00:09:39.279061 [debug] [MainThread]: Starter project path: C:\Users\oswin\weather-pipeline\.venv\Lib\site-packages\dbt\include\starter_project
+[0m00:09:39.302226 [info ] [MainThread]: Setting up your profile.
+[0m00:09:43.777058 [info ] [MainThread]: Profile dbt_weather written to C:\Users\oswin\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m00:09:43.798663 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m00:09:43.800195 [info ] [MainThread]: dbt version: 1.12.6
+[0m00:09:43.801211 [info ] [MainThread]: python version: 3.12.10
+[0m00:09:43.801211 [info ] [MainThread]: python path: C:\Users\oswin\weather-pipeline\.venv\Scripts\python.exe
+[0m00:09:43.801211 [info ] [MainThread]: os info: Windows-11-10.0.26300-SP0
+[0m00:09:43.865732 [info ] [MainThread]: Using profiles dir at C:\Users\oswin\.dbt
+[0m00:09:43.865732 [info ] [MainThread]: Using profiles.yml file at C:\Users\oswin\.dbt\profiles.yml
+[0m00:09:43.866737 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\oswin\weather-pipeline\dbt_weather\dbt_project.yml
+[0m00:09:43.891496 [info ] [MainThread]: adapter type: duckdb
+[0m00:09:43.892496 [info ] [MainThread]: adapter version: 1.11.0
+[0m00:09:43.968698 [info ] [MainThread]: Configuration:
+[0m00:09:43.968698 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m00:09:43.970201 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m00:09:43.970201 [info ] [MainThread]: Required dependencies:
+[0m00:09:43.970201 [debug] [MainThread]: Executing "git --help"
+[0m00:09:43.976338 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m00:09:43.977320 [info ] [MainThread]: Connection:
+[0m00:09:43.977320 [info ] [MainThread]:   database: dev
+[0m00:09:43.977320 [info ] [MainThread]:   schema: main
+[0m00:09:43.977320 [info ] [MainThread]:   path: dev.duckdb
+[0m00:09:43.978824 [info ] [MainThread]:   config_options: None
+[0m00:09:43.978824 [info ] [MainThread]:   extensions: None
+[0m00:09:43.978824 [info ] [MainThread]:   settings: {}
+[0m00:09:43.978824 [info ] [MainThread]:   external_root: .
+[0m00:09:43.980345 [info ] [MainThread]:   use_credential_provider: None
+[0m00:09:43.980345 [info ] [MainThread]:   attach: None
+[0m00:09:43.980345 [info ] [MainThread]:   filesystems: None
+[0m00:09:43.980345 [info ] [MainThread]:   remote: None
+[0m00:09:43.981350 [info ] [MainThread]:   plugins: None
+[0m00:09:43.981350 [info ] [MainThread]:   disable_transactions: False
+[0m00:09:43.981350 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m00:09:44.155965 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m00:09:47.348640 [debug] [MainThread]: Using duckdb connection "debug"
+[0m00:09:47.348640 [debug] [MainThread]: On debug: select 1 as id
+[0m00:09:47.348640 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:09:47.376165 [debug] [MainThread]: SQL status: OK in 0.027 seconds
+[0m00:09:47.376165 [debug] [MainThread]: On debug: Close
+[0m00:09:47.376165 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m00:09:47.377673 [info ] [MainThread]: [31m1 check failed:[0m
+[0m00:09:47.377673 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m00:09:47.377673 [info ] [MainThread]: Your new dbt project "dbt_weather" was created!
+Initialized new project in C:\Users\oswin\weather-pipeline\dbt_weather\dbt_weather
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:09:47.378679 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m00:09:47.378679 [debug] [MainThread]: Command `dbt init` succeeded at 00:09:47.378679 after 8.22 seconds
+[0m00:09:47.378679 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m00:09:47.378679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223F3CB9FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223F162C0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223F15767B0>]}
+[0m00:09:47.380213 [debug] [MainThread]: Flushing usage events
+[0m00:09:48.335380 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:09:55.528959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223388211C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022336CAB5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022336E83A70>]}
+
+
+============================== 00:09:55.533186 | b37a3f75-04d2-4b37-9d63-b1d70b41d0e6 ==============================
+[0m00:09:55.533186 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:09:55.534237 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\oswin\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init dbt_weather', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m00:09:55.548475 [info ] [MainThread]: A project called dbt_weather already exists here.
+[0m00:09:55.549518 [debug] [MainThread]: Command `dbt init` succeeded at 00:09:55.549518 after 0.12 seconds
+[0m00:09:55.550035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022336CAB5F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022338AB3260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002233885AC30>]}
+[0m00:09:55.550035 [debug] [MainThread]: Flushing usage events
+[0m00:09:56.518175 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:10:05.089447 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001629DB1EF00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A11FB920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A11FAB40>]}
+
+
+============================== 00:10:05.092516 | 781d988c-c14e-4f07-9829-c7ca41d04c7f ==============================
+[0m00:10:05.092516 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:10:05.093516 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\oswin\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m00:10:05.093516 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\oswin\weather-pipeline\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:10:05.095056 [debug] [MainThread]: Command `dbt run` failed at 00:10:05.095056 after 0.11 seconds
+[0m00:10:05.095056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A32E0E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A333D3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001629DB1EF00>]}
+[0m00:10:05.095056 [debug] [MainThread]: Flushing usage events
+[0m00:10:06.034259 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:10:31.485373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290699E9880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290690C63F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000290690C6390>]}
+
+
+============================== 00:10:31.488403 | 37d24761-50bc-4654-9937-43cbb92e4cd5 ==============================
+[0m00:10:31.488403 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:10:31.489378 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\oswin\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init dbt_weather', 'log_path': 'logs'}
+[0m00:10:31.502649 [debug] [MainThread]: Starter project path: C:\Users\oswin\weather-pipeline\.venv\Lib\site-packages\dbt\include\starter_project
+[0m00:10:31.520320 [info ] [MainThread]: Setting up your profile.
+[0m00:10:43.846237 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m00:10:43.847239 [info ] [MainThread]: dbt version: 1.12.6
+[0m00:10:43.847239 [info ] [MainThread]: python version: 3.12.10
+[0m00:10:43.847239 [info ] [MainThread]: python path: C:\Users\oswin\weather-pipeline\.venv\Scripts\python.exe
+[0m00:10:43.848236 [info ] [MainThread]: os info: Windows-11-10.0.26300-SP0
+[0m00:10:43.898732 [info ] [MainThread]: Using profiles dir at C:\Users\oswin\.dbt
+[0m00:10:43.898732 [info ] [MainThread]: Using profiles.yml file at C:\Users\oswin\.dbt\profiles.yml
+[0m00:10:43.898732 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\oswin\weather-pipeline\dbt_weather\dbt_project.yml
+[0m00:10:43.901247 [info ] [MainThread]: adapter type: duckdb
+[0m00:10:43.901247 [info ] [MainThread]: adapter version: 1.11.0
+[0m00:10:43.979167 [info ] [MainThread]: Configuration:
+[0m00:10:43.979167 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m00:10:43.980142 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m00:10:43.980142 [info ] [MainThread]: Required dependencies:
+[0m00:10:43.980142 [debug] [MainThread]: Executing "git --help"
+[0m00:10:43.986299 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m00:10:43.987328 [info ] [MainThread]: Connection:
+[0m00:10:43.987328 [info ] [MainThread]:   database: dev
+[0m00:10:43.987328 [info ] [MainThread]:   schema: main
+[0m00:10:43.988301 [info ] [MainThread]:   path: dev.duckdb
+[0m00:10:43.988301 [info ] [MainThread]:   config_options: None
+[0m00:10:43.988301 [info ] [MainThread]:   extensions: None
+[0m00:10:43.989301 [info ] [MainThread]:   settings: {}
+[0m00:10:43.989301 [info ] [MainThread]:   external_root: .
+[0m00:10:43.989301 [info ] [MainThread]:   use_credential_provider: None
+[0m00:10:43.990302 [info ] [MainThread]:   attach: None
+[0m00:10:43.990302 [info ] [MainThread]:   filesystems: None
+[0m00:10:43.990302 [info ] [MainThread]:   remote: None
+[0m00:10:43.990302 [info ] [MainThread]:   plugins: None
+[0m00:10:43.991300 [info ] [MainThread]:   disable_transactions: False
+[0m00:10:43.991300 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m00:10:44.174755 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m00:10:44.217057 [debug] [MainThread]: Using duckdb connection "debug"
+[0m00:10:44.217057 [debug] [MainThread]: On debug: select 1 as id
+[0m00:10:44.217057 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:10:44.236189 [debug] [MainThread]: SQL status: OK in 0.018 seconds
+[0m00:10:44.236189 [debug] [MainThread]: On debug: Close
+[0m00:10:44.237195 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m00:10:44.237195 [info ] [MainThread]: [31m1 check failed:[0m
+[0m00:10:44.237195 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m00:10:44.237195 [info ] [MainThread]: Your new dbt project "dbt_weather" was created!
+Initialized new project in C:\Users\oswin\weather-pipeline\dbt_weather\dbt_weather
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:10:44.238194 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m00:10:44.239194 [debug] [MainThread]: Command `dbt init` succeeded at 00:10:44.238194 after 12.85 seconds
+[0m00:10:44.239194 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m00:10:44.239194 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002906901EE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002906901E300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002906901E840>]}
+[0m00:10:44.239194 [debug] [MainThread]: Flushing usage events
+[0m00:10:45.191674 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:10:57.248749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002124532A600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000212452319D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021247CD43B0>]}
+
+
+============================== 00:10:57.252298 | 88a49676-dbbb-4096-aec5-d9f4c393a6b1 ==============================
+[0m00:10:57.252298 [info ] [MainThread]: Running with dbt=1.12.6
+[0m00:10:57.253298 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\oswin\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run', 'log_path': 'logs'}
+[0m00:10:57.253298 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\oswin\weather-pipeline\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:10:57.254319 [debug] [MainThread]: Command `dbt run` failed at 00:10:57.254319 after 0.10 seconds
+[0m00:10:57.254319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021247C9F7A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002124973C3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002124973D3D0>]}
+[0m00:10:57.255350 [debug] [MainThread]: Flushing usage events
+[0m00:10:58.235265 [debug] [MainThread]: An error was encountered while trying to flush usage events

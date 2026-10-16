@@ -1,0 +1,7 @@
+# Never upload secret keys to GitHub
+.env
+
+# Ignore Python virtual environment & cache files
+.venv/
+__pycache__/
+*.duckdb
