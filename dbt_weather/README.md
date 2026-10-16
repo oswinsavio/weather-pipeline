@@ -1,15 +1,21 @@
-Welcome to your new dbt project!
+# Modern End-to-End Weather ELT Pipeline
 
-### Using the starter project
+A containerized, production-ready local ELT data pipeline built using a Modern Data Stack (MDS). This project ingests real-time weather metrics, stores them in an analytical lakehouse, transforms them using analytics engineering principles, orchestrates execution, and syncs curated data into an operational serving database.
 
-Try running the following commands:
-- dbt run
-- dbt test
+---
 
+##  Architecture & Tech Stack
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+```text
+[ Live Weather API ] 
+        │
+        ▼ (Python Ingestion)
+[ DuckDB Local Lakehouse ] 
+        │
+        ▼ (dbt Transformations)
+[ Curated Analytical Models ] 
+        │
+        ▼ (Post-Load Sync Script)
+[ PostgreSQL Serving Layer (Docker) ] 
+        ▲
+        └─ (Orchestrated via Dagster)
